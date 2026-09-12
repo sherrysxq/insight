@@ -6,14 +6,14 @@
 <title>INSIGHTS — Sat 12 Sep 2026</title>
 <style>
   :root {
-    --bg: #0d1117;
-    --card: #161b22;
-    --text: #e6edf3;
-    --muted: #8b949e;
-    --accent: #f85149;
-    --border: #30363d;
-    --green: #3fb950;
-    --red: #f85149;
+    --bg: #ffffff;
+    --card: #f6f7f8;
+    --text: #1a1a1a;
+    --muted: #555;
+    --accent: #c0392b;
+    --border: #dde1e5;
+    --green: #1e7e34;
+    --red: #a71d2a;
   }
   * { box-sizing: border-box; margin: 0; padding: 0; }
   body {
@@ -25,81 +25,57 @@
     -webkit-font-smoothing: antialiased;
   }
   .container { max-width: 720px; margin: 0 auto; padding: 12px; }
-  .header { text-align: center; padding: 18px 0 12px; border-bottom: 1px solid var(--border); margin-bottom: 16px; }
-  .header h1 { font-size: 1.4rem; font-weight: 700; letter-spacing: -0.02em; color: var(--text); }
+  .header { text-align: center; padding: 18px 0 12px; border-bottom: 2px solid var(--border); margin-bottom: 16px; }
+  .header h1 { font-size: 1.4rem; font-weight: 700; letter-spacing: -0.02em; }
   .header .date { color: var(--muted); font-size: 0.9rem; margin-top: 4px; }
   .header .bilingual { font-size: 0.85rem; color: var(--muted); margin-top: 8px; }
-
-  /* Sunshine box */
-  .sunshine {
-    background: var(--card);
-    border: 1px solid var(--border);
-    border-radius: 10px;
-    padding: 10px 14px;
-    margin-bottom: 16px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 12px;
-    flex-wrap: wrap;
-  }
-  .sunshine-icon { font-size: 1.4rem; }
-  .sunshine-text { text-align: center; }
-  .sunshine-duration { font-size: 1.1rem; font-weight: 700; color: var(--accent); }
-  .sunshine-label { font-size: 0.75rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 2px; }
-  .sunshine-detail { font-size: 0.78rem; color: var(--muted); margin-top: 3px; }
-
   .section {
     background: var(--card);
     border: 1px solid var(--border);
     border-radius: 10px;
     padding: 16px 18px;
     margin-bottom: 14px;
-    box-shadow: 0 1px 4px rgba(0,0,0,0.3);
+    box-shadow: 0 1px 4px rgba(0,0,0,0.06);
   }
-  .section-title { font-size: 1.05rem; font-weight: 700; margin-bottom: 8px; display: flex; align-items: center; gap: 8px; color: var(--text); }
+  .section-title { font-size: 1.05rem; font-weight: 700; margin-bottom: 8px; display: flex; align-items: center; gap: 8px; }
   .section .source { font-size: 0.78rem; color: var(--muted); margin-bottom: 10px; font-style: italic; }
-  p { margin-bottom: 6px; color: var(--text); }
+  p { margin-bottom: 6px; }
   p:last-child { margin-bottom: 0; }
   .lead { font-size: 0.92rem; color: var(--muted); font-style: italic; margin-bottom: 10px; padding-bottom: 8px; border-bottom: 1px solid var(--border); }
   ul { padding-left: 16px; margin-bottom: 6px; }
-  li { margin-bottom: 4px; font-size: 0.92rem; color: var(--text); }
+  li { margin-bottom: 4px; font-size: 0.92rem; }
   li:last-child { margin-bottom: 0; }
-  strong { font-weight: 600; color: var(--text); }
+  strong { font-weight: 600; }
   em { color: var(--muted); font-size: 0.88rem; }
   .neg { color: var(--red); font-weight: 600; }
   .pos { color: var(--green); font-weight: 600; }
   .quote {
-    background: #1c2128;
+    background: #f8f9fa;
     border-left: 3px solid var(--accent);
     padding: 8px 12px;
     margin: 8px 0;
     font-style: italic;
     border-radius: 0 6px 6px 0;
     font-size: 0.9rem;
-    color: var(--text);
   }
   .quote-label { font-weight: 600; font-style: normal; display: block; margin-bottom: 2px; font-size: 0.82rem; color: var(--accent); }
   .table-wrap { overflow-x: auto; margin: 8px 0; -webkit-overflow-scrolling: touch; }
   table { width: 100%; border-collapse: collapse; font-size: 0.82rem; min-width: 440px; }
-  th { background: #21262d; text-align: left; padding: 6px 8px; font-weight: 600; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.03em; color: var(--muted); border-bottom: 2px solid var(--border); }
-  td { padding: 6px 8px; border-bottom: 1px solid var(--border); vertical-align: top; color: var(--text); }
+  th { background: #eaecef; text-align: left; padding: 6px 8px; font-weight: 600; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.03em; color: var(--muted); border-bottom: 2px solid var(--border); }
+  td { padding: 6px 8px; border-bottom: 1px solid var(--border); vertical-align: top; }
   tr:last-child td { border-bottom: none; }
   .ticker { font-weight: 700; font-size: 0.88rem; }
-  .subhead { font-weight: 600; font-size: 0.92rem; margin: 10px 0 4px; color: var(--text); }
-  .subhead-trans { font-weight: 600; font-size: 0.92rem; margin: 12px 0 4px; padding-top: 6px; border-top: 1px dashed var(--border); color: var(--text); }
-  .tag { display: inline-block; font-size: 0.7rem; padding: 1px 6px; border-radius: 8px; background: #21262d; color: var(--muted); margin-right: 3px; margin-bottom: 2px; }
-  .tag-red { background: #2d1b1b; color: var(--red); }
-  .tag-green { background: #1b2d1b; color: var(--green); }
-  .warning { background: #2d2318; border: 1px solid #4a3a1a; border-radius: 6px; padding: 6px 10px; font-size: 0.82rem; margin: 6px 0; color: var(--text); }
+  .subhead { font-weight: 600; font-size: 0.92rem; margin: 10px 0 4px; }
+  .subhead-trans { font-weight: 600; font-size: 0.92rem; margin: 12px 0 4px; padding-top: 6px; border-top: 1px dashed var(--border); }
+  .tag { display: inline-block; font-size: 0.7rem; padding: 1px 6px; border-radius: 8px; background: #e9ecef; color: var(--muted); margin-right: 3px; margin-bottom: 2px; }
+  .tag-red { background: #fde8e8; color: #a71d2a; }
+  .tag-green { background: #e6f4ea; color: #1e7e34; }
+  .warning { background: #fff8e1; border: 1px solid #ffe082; border-radius: 6px; padding: 6px 10px; font-size: 0.82rem; margin: 6px 0; }
   .footer { text-align: center; padding: 12px 20px 18px; font-size: 0.72rem; color: var(--muted); border-top: 1px solid var(--border); margin-top: 12px; line-height: 1.5; }
-
   @media (max-width: 480px) {
     .container { padding: 8px; }
     .section { padding: 12px 12px; }
     .header h1 { font-size: 1.2rem; }
-    .sunshine { padding: 8px 10px; gap: 8px; }
-    .sunshine-duration { font-size: 1rem; }
     body { font-size: 16px; }
   }
 </style>
