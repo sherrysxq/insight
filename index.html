@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
-<title>INSIGHTS — Sat 12 Sep 2026</title>
+<title>INSIGHTS — Sun 13 Sep 2026</title>
 <style>
   :root {
     --bg: #ffffff;
@@ -25,7 +25,10 @@
     -webkit-font-smoothing: antialiased;
   }
   .container { max-width: 720px; margin: 0 auto; padding: 12px; }
-  .header { text-align: center; padding: 18px 0 12px; border-bottom: 2px solid var(--border); margin-bottom: 16px; }
+  .header {
+    text-align: center; padding: 18px 0 12px;
+    border-bottom: 2px solid var(--border); margin-bottom: 16px;
+  }
   .header h1 { font-size: 1.4rem; font-weight: 700; letter-spacing: -0.02em; }
   .header .date { color: var(--muted); font-size: 0.9rem; margin-top: 4px; }
   .header .bilingual { font-size: 0.85rem; color: var(--muted); margin-top: 8px; }
@@ -37,11 +40,21 @@
     margin-bottom: 14px;
     box-shadow: 0 1px 4px rgba(0,0,0,0.06);
   }
-  .section-title { font-size: 1.05rem; font-weight: 700; margin-bottom: 8px; display: flex; align-items: center; gap: 8px; }
-  .section .source { font-size: 0.78rem; color: var(--muted); margin-bottom: 10px; font-style: italic; }
+  .section-title {
+    font-size: 1.05rem; font-weight: 700; margin-bottom: 8px;
+    display: flex; align-items: center; gap: 8px;
+  }
+  .section .source {
+    font-size: 0.78rem; color: var(--muted); margin-bottom: 10px;
+    font-style: italic;
+  }
   p { margin-bottom: 6px; }
   p:last-child { margin-bottom: 0; }
-  .lead { font-size: 0.92rem; color: var(--muted); font-style: italic; margin-bottom: 10px; padding-bottom: 8px; border-bottom: 1px solid var(--border); }
+  .lead {
+    font-size: 0.92rem; color: var(--muted); font-style: italic;
+    margin-bottom: 10px; padding-bottom: 8px;
+    border-bottom: 1px solid var(--border);
+  }
   ul { padding-left: 16px; margin-bottom: 6px; }
   li { margin-bottom: 4px; font-size: 0.92rem; }
   li:last-child { margin-bottom: 0; }
@@ -49,29 +62,19 @@
   em { color: var(--muted); font-size: 0.88rem; }
   .neg { color: var(--red); font-weight: 600; }
   .pos { color: var(--green); font-weight: 600; }
-  .quote {
-    background: #f8f9fa;
-    border-left: 3px solid var(--accent);
-    padding: 8px 12px;
-    margin: 8px 0;
-    font-style: italic;
-    border-radius: 0 6px 6px 0;
-    font-size: 0.9rem;
+  .subhead {
+    font-weight: 600; font-size: 0.92rem; margin: 10px 0 4px;
   }
-  .quote-label { font-weight: 600; font-style: normal; display: block; margin-bottom: 2px; font-size: 0.82rem; color: var(--accent); }
-  .table-wrap { overflow-x: auto; margin: 8px 0; -webkit-overflow-scrolling: touch; }
-  table { width: 100%; border-collapse: collapse; font-size: 0.82rem; min-width: 440px; }
-  th { background: #eaecef; text-align: left; padding: 6px 8px; font-weight: 600; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.03em; color: var(--muted); border-bottom: 2px solid var(--border); }
-  td { padding: 6px 8px; border-bottom: 1px solid var(--border); vertical-align: top; }
-  tr:last-child td { border-bottom: none; }
-  .ticker { font-weight: 700; font-size: 0.88rem; }
-  .subhead { font-weight: 600; font-size: 0.92rem; margin: 10px 0 4px; }
-  .subhead-trans { font-weight: 600; font-size: 0.92rem; margin: 12px 0 4px; padding-top: 6px; border-top: 1px dashed var(--border); }
-  .tag { display: inline-block; font-size: 0.7rem; padding: 1px 6px; border-radius: 8px; background: #e9ecef; color: var(--muted); margin-right: 3px; margin-bottom: 2px; }
-  .tag-red { background: #fde8e8; color: #a71d2a; }
-  .tag-green { background: #e6f4ea; color: #1e7e34; }
-  .warning { background: #fff8e1; border: 1px solid #ffe082; border-radius: 6px; padding: 6px 10px; font-size: 0.82rem; margin: 6px 0; }
-  .footer { text-align: center; padding: 12px 20px 18px; font-size: 0.72rem; color: var(--muted); border-top: 1px solid var(--border); margin-top: 12px; line-height: 1.5; }
+  .subhead-trans {
+    font-weight: 600; font-size: 0.92rem; margin: 12px 0 4px;
+    padding-top: 6px; border-top: 1px dashed var(--border);
+  }
+  .footer {
+    text-align: center; padding: 12px 20px 18px;
+    font-size: 0.72rem; color: var(--muted);
+    border-top: 1px solid var(--border); margin-top: 12px;
+    line-height: 1.5;
+  }
   @media (max-width: 480px) {
     .container { padding: 8px; }
     .section { padding: 12px 12px; }
@@ -85,424 +88,141 @@
 
 <div class="header">
   <h1>🧠 INSIGHTS — What I need to know</h1>
-  <div class="date">Sat 12 Sep 2026</div>
+  <div class="date">Sun 13 Sep 2026</div>
   <div class="bilingual">🧠 洞察 — 我需要知道的事</div>
 </div>
 
-<!-- SECTION 1: ASX -->
-<div class="section">
-  <div class="section-title">📈 ASX Sector Watch — Who's Up, Who's Down</div>
-  <div class="source">Today's Australia-day session read, sourced from AFR markets headlines + CSIMarket sector data</div>
-  <p class="lead">_今日澳洲交易时段解读，来源于AFR市场头条 + CSIMarket板块数据：_</p>
+<div class="subhead">🧠 *INSIGHTS — What I need to know*</div>
+<p>&lt;em&gt;Sun 13 Sep&lt;/em&gt;</p>
+<div class="subhead">🧠 *洞察 — 我需要知道的事*</div>
 
-  <div class="subhead">🟢 Performing (上涨 / 强势)</div>
-  <ul>
-    <li><span class="tag tag-green">+1.92%</span> <strong>Computer Hardware &amp; Tech hardware</strong> — AI compute demand tailwind, the standout leader<br><span style="margin-left:14px;color:var(--muted);font-size:0.85rem;">计算机硬件与科技硬件：+1.92% — AI计算需求推动，表现最为突出</span></li>
-    <li><span class="tag tag-green">+1.71%</span> <strong>Tobacco / Consumer defensive</strong> — steady dividend play, defensive rotation into safety<br><span style="margin-left:14px;color:var(--muted);font-size:0.85rem;">烟草/消费防御类：+1.71% — 稳定分红标的，防御性轮动吸引资金</span></li>
-  </ul>
+<div class="subhead">🏠 *Property market update (Australia) — AFR*</div>
+<p>要点：市场、房产。</p>
+<li>*National / combined capitals:* Auction clearance rate hits 19-week high as buyers hunt bargains</li>
+</ul>
+<p>拍卖市场动态。</p>
+<p>RBA sees slowdown but no ‘recession’ from housing downturn</p>
+<li>&lt;em&gt;总体看法：&lt;/em&gt;全国/混合成交。</li>
+</ul>
+<p>（暂无本地中文释义）</p>
 
-  <div class="subhead">🔴 Underperforming (下跌 / 疲软)</div>
-  <ul>
-    <li><span class="tag tag-red">-2.81%</span> <strong>Basic Materials / 原材料</strong> — worst performer today; commodity price pressure, China demand jitters<br><span style="margin-left:14px;color:var(--muted);font-size:0.85rem;">原材料/基础材料：-2.81% — 今日最差板块，大宗商品价格走软、对华需求担忧</span></li>
-    <li><span class="tag tag-red">-1.70%</span> <strong>Capital Goods / 重资产设备</strong> — rate-sensitive, construction &amp; industrial machinery<br><span style="margin-left:14px;color:var(--muted);font-size:0.85rem;">重资产设备/资本货物：-1.70% — 利率敏感，建筑及工业机械板块</span></li>
-    <li><span class="tag tag-red">-1.05%</span> <strong>Utilities / 公用事业</strong> — rate-sensitive defensives under pressure<br><span style="margin-left:14px;color:var(--muted);font-size:0.85rem;">公用事业：-1.05% — 利率敏感防御类承压</span></li>
-    <li><span class="tag tag-red">-0.91%</span> <strong>Healthcare / 医疗健康</strong> — broad healthcare softness<br><span style="margin-left:14px;color:var(--muted);font-size:0.85rem;">医疗健康：-0.91% — 医疗板块广泛走软</span></li>
-    <li><span class="tag tag-red">-0.67%</span> <strong>Consumer Discretionary / 非必需消费</strong> — rate-sensitive consumer spending under pressure<br><span style="margin-left:14px;color:var(--muted);font-size:0.85rem;">非必需消费：-0.67% — 利率敏感消费支出承压</span></li>
-  </ul>
+<div class="subhead">📈 *Share market &amp;amp; ASX*</div>
+<p>要点：澳交所、股票、市场。</p>
+<li>Australian shares</li>
+</ul>
+<p>要点：股票。</p>
+<li>ASX to rise ahead of pivotal week of central bank meetings</li>
+</ul>
+<p>银行板块反弹。</p>
+<li>The ASX’s unloved industrials prepare for date with PE destiny</li>
+</ul>
+<p>要点：澳交所。</p>
 
-  <div class="subhead">📋 The read for the user's watchlist</div>
-  <ul>
-    <li><strong>Miners / Materials</strong> (BHP, Rio, FMG etc.) — soft, -2.81% sector, tied to China commodity prices and oil spike noise<br><em>矿业/原材料（BHP、Rio、FMG等）——偏软，-2.81%板块， tied to 中国大宗商品价格和油价飙升噪音</em></li>
-    <li><strong>Banks / Financials</strong> (CBA, NAB, ANZ, WP) — mixed: profits are record but shares sold off 8-10% in August on mortgage-app collapse (see Big Four section below)<br><em>银行/金融（CBA、NAB、ANZ、WP）——混杂：盈利创记录但股价8月份因房贷申请暴降而卖杀8-10%（见下文四大行板块）</em></li>
-    <li><strong>Tech</strong> — the bright spot; global AI capex boom supports the narrative even if ASX tech names are smaller caps<br><em>科技——亮点；全球AI资本支出爆炸支撑Narrative，即使ASX科技股多为小型盘</em></li>
-    <li><strong>Property / REITs</strong> — under pressure from high rates; see Property section<br><em>房地产/REITs——高利率压制，见房产板块</em></li>
-  </ul>
-  <p><em>Bottom line: Tech leads, Materials drags. Today's session is a risk-off tilt with commodity and rate-sensitive sectors selling off.</em></p>
-  <p><em>底线：科技领涨，原材料拖累。今日盘局是风险偏好off倾斜，大宗商品和利率敏感板块卖出。</em></p>
-</div>
+<div class="subhead">🌐 *Nasdaq &amp;amp; Wall Street*</div>
+<p>要点：纳斯达克、华尔街。</p>
+<li>Federal Reserve</li>
+</ul>
+<p>要点：美联储。</p>
+<li>Wall Street rallies as oil retreats, bond market steadies</li>
+</ul>
+<p>要点：市场、反弹、华尔街。</p>
+<li>Traders see no end to sky-high oil price as Houthis head to Red Sea</li>
+</ul>
+<p>要点：价格。</p>
 
-<!-- SECTION 2: Nasdaq -->
-<div class="section">
-  <div class="section-title">💻 Nasdaq Composite — Who's Up, Who's Down (纳斯达克板块观察)</div>
-  <div class="source">Source: Nasdaq Composite Sep 2-11 2026 data; BBA, BBN Times, 10X Wealth Report, Community America</div>
+<div class="subhead">🔬 *Research — AI (investment &amp;amp; frontier view)*</div>
+<p>（暂无本地中文释义）</p>
+<p>&lt;em&gt;Frontier AI news (Stanford HAI / The Batch):&lt;/em&gt;</p>
+<li>Building Adaptive AI Agents</li>
+</ul>
+<p>要点：中介、自适应。</p>
+<li>AI Index Report</li>
+</ul>
+<p>要点：指数。</p>
+<li>How AI Is Accelerating Scientific Discovery</li>
+</ul>
+<p>（暂无本地中文释义）</p>
+<li>AI Companions May Worsen Loneliness for Vulnerable Users, Stanford Study Finds</li>
+</ul>
+<p>（暂无本地中文释义）</p>
 
-  <div class="subhead">📊 Nasdaq snapshot</div>
-  <ul>
-    <li><strong>NASDAQ Composite: 26,584.06</strong> (Thu 10 Sep close) — +0.45% on the day, seizing back some shine after prior selloffs<br><em>纳斯达克综合指数：26,584.06（9月10日周四收盘）——当日上涨0.45%，此前卖杀后重新抢回一些光芒</em></li>
-    <li><strong>August 2026: Nasdaq +3.93%</strong> (S&P 500 +2.62%, Dow only +1.34%) — tech/growth led the month as AI enthusiasm returned<br><em>2026年8月：纳斯达克+3.93%（S&P 500+2.62%，道琼斯仅+1.34%）——AI热情回归，科技/成长板块引领月度行情</em></li>
-    <li><strong>4th consecutive annual gain in prospect</strong> — longest winning streak since 2017, driven overwhelmingly by AI-linked names across software, semiconductors, and cloud<br><em>有望连续第4年上涨——自2017年以来最长连涨，主要由软件、半导体、云计算等AI关联板块驱动</em></li>
-    <li><strong>Rate-sensitive:</strong> Nasdaq has the heaviest weighting of rate-sensitive growth/tech names — Treasury yield moves are a key swing factor<br><em>利率敏感性极高：纳斯达克在利率敏感型成长/科技股中权重最高——美债收益率变动是关键 swing 因素</em></li>
-  </ul>
-
-  <div class="subhead">🟢 Performing (上涨 / 强势)</div>
-  <ul>
-    <li><span class="tag tag-green">半导体 / Semiconductors</span> — the clear leader: Nvidia +4.56% (to $227.36, 9月2日), AMD +4.7%, Micron +6.1% (至9月4日), Sandisk +11.9%, Broadcom beat (AI半导体收入+127% YoY), KLA +7%, Astera Labs +10%<br><em>半导体——持续领涨：Nvidia+4.56%（至227.36美元）、AMD+4.7%、Micron+6.1%、Sandisk+11.9%、Broadcom业绩超预期（AI半导体收入同比+127%）、KLA+7%、Astera Labs+10%</em></li>
-    <li><span class="tag tag-green">内存 / Memory &amp; 数据存储基础设施</span> — Seagate +6%, Western Digital +6%, Dell Technologies +7.49%（企业AI硬件支出新热潮）——不仅 Nvidia，内存+存储基建也在爆发<br><em>内存及数据存储基础设施——Seagate+6%、西部数据+6%、戴尔+7.49%（企业AI硬件支出新热潮）——不仅是Nvidia，内存和存储基建也在爆发</em></li>
-    <li><span class="tag tag-green">云 / Cloud &amp; 软件</span> — Snowflake +20%+（业绩大超预期，收入$15.5亿）、Atlassian、ServiceNow、Datadog、Monday.com、HubSpot在业绩季齐线上涨——AI软件需求真实落地<br><em>云及软件——Snowflake飙升超20%（业绩大超预期，收入15.5亿美元）、Atlassian、ServiceNow、Datadog、Monday.com、HubSpot在业绩季齐线上涨——AI软件需求真实落地</em></li>
-    <li><span class="tag tag-green">科技 / Technology</span> — 8月领涨板块 (+6.4%)，连续第二月领跑标普500板块榜<br><em>科技——8月领涨板块（+6.4%），连续第二月领跑标普500 11个板块榜首</em></li>
-  </ul>
-
-  <div class="subhead">🔴 Underperforming (下跌 / 疲软)</div>
-  <ul>
-    <li><span class="tag tag-red">网络安全软件 / Cybersecurity software</span> — Palo Alto Networks -10.27%, CrowdStrike -5.18%, Fortinet -5.55%, Datadog -5.72%（9月2日）——投资者似乎从高估值安全软件抽出资金，转向AI基建半导体<br><em>网络安全软件——Palo Alto Networks-10.27%、CrowdStrike-5.18%、Fortinet-5.55%、Datadog-5.72%（9月2日）——资本从高估值安全软件抽出，转向AI基建半导体</em></li>
-    <li><span class="tag tag-red">部分 Megacap 科技股</span> — Apple -2.51%（至9月4日，$319.97）、Microsoft -2.04%（至499.70美元）——"科技板块上涨"是不完整的描述：大盘权重股反而拖累<br><em>部分超大盘科技股——Apple-2.51%（至319.97美元）、Microsoft-2.04%（至499.70美元）——"科技板块上涨"是不完整的描述，因为大盘重权重股反而拖累整体</em></li>
-    <li><span class="tag tag-red">软件 / 服务类 (Software &amp; services)</span> — 被视为AI颠覆潜在受害者，在日度上走弱；航空、贵金属矿商、区域银行反而在某些交易日领涨<br><em>软件/服务类——被视为AI颠覆的潜在受害者，在部分交易日走弱；航空、黄金等矿商、区域银行反而在某些日子领涨</em></li>
-    <li><span class="tag tag-red">房地产 / Real Estate (标普500板块)</span> — 8月唯一负增长板块（-2.1%），连续第二月落后；公用事业-4.8%、工业-2.6%、非必需消费-0.1%也走软<br><em>房地产（标普500板块）——8月唯一负增长板块（-2.1%），连续第二月落后；公用事业-4.8%、工业-2.6%、非必需消费-0.1%也走软</em></li>
-    <li><strong>Broadcom caution:</strong> despite strong results (adjusted EPS $3.32, +96% YoY, revenue $29.59B, +86%), shares pulled back on guidance — AI半导体收入+127% YoY但指引拖累股价显示AI主题内部分化<br><em>Broadcom谨慎信号：尽管业绩强劲（调整后EPS 3.32美元、同比+96%、营收295.91亿美元、同比+86%），但指引不佳导致股价回落——显示AI主题内部存在分化</em></li>
-  </ul>
-
-  <div class="subhead">📋 投资者角度的读法</div>
-  <ul>
-    <li><strong>核心动力：</strong>AI基建（半导体+内存+存储+云）仍是纳斯达克主旋律，Nvidia/AMD/Micron/Sandisk/Seagate/Western Digital/Dell构成"AI硬件复合体"，Snowflake等软件验证了AI软件需求<br><em>核心动力：AI基建（半导体+内存+存储+云）仍是纳斯达克主旋律，Nvidia/AMD/Micron/Sandisk/Seagate/西部数据/戴尔构成"AI硬件复合体"，Snowflake等软件验证了AI软件需求</em></li>
-    <li><strong>分化信号：</strong>网络安全软件被资本抛弃（Palo Alto/CrowdStrike/Fortinet三连阴），苹果/微软等Megacap反而拖累——"科技涨了"是错觉，真正涨的是半导体+内存+部分云软件<br><em>分化信号：网络安全软件被资本抛弃（Palo Alto/CrowdStrike/Fortinet三连阴），苹果/微软等超大盘反而拖累——"科技板块上涨"是错觉，真正涨的是半导体+内存+部分云软件</em></li>
-    <li><strong>利率博弈：</strong>纳斯达克对美债收益率极度敏感，随着美债收益率下行（9月4日后趋势），成长股估值得到支撑——但若油价/通胀推动收益率反弹，纳指将首当其冲<br><em>利率博弈：纳斯达克对美债收益率极度敏感，随着美债收益率下行（9月4日后趋势），成长股估值得到支撑——但若油价/通胀推动收益率反弹，纳指将首当其冲</em></li>
-    <li><strong>观察重点：</strong>Broadcom业绩后的股价反应显示了AI半导体板块内部估值敏感度上升；Snowflake/Snowflake类软件的持续业绩超预期是検视"AI软件需求是否可持续"的试金石<br><em>观察重点：Broadcom业绩后的股价反应显示AI半导体板块内部估值敏感度上升；Snowflake及类似软件的持续业绩超预期是检验"AI软件需求是否可持续"的试金石</em></li>
-  </ul>
-
-  <div class="subhead-trans">纳斯达克板块观察 — 中文总结</div>
-  <p>纳斯达克8月涨3.93%，领跑三大指数。<strong>核心上涨动力是半导体+内存+存储+云软件</strong>——Nvidia、AMD、Micron、Sandisk、Seagate、西部数据、戴尔和Snowflake构成了"AI基建复合体"。<strong>下跌/疲软主要集中在网络安全软件</strong>（Palo Alto、CrowdStrike、Fortinet、Datadog）、部分Megacap（苹果、微软）以及标普500中的房地产（-2.1%）、公用事业（-4.8%）、工业（-2.6%）。Broadcom虽然业绩极好（AI半导体收入+127%）但股价因指引回落，显示AI半导体板块内部估值敏感度上升。纳斯达克还是利率敏感性最高的指数——美债收益率下行利好成长股，但若油价/通胀导致收益率反弹，纳指将首当其冲。</p>
-</div>
-
-<!-- SECTION 3: RBA -->
-<div class="section">
-  <div class="section-title">🏦 RBA &amp; Interest Rates — 澳洲联储与利率最新</div>
-  <div class="source">Latest RBA info (rba.gov.au + AFR)</div>
-  <ul>
-    <li><strong>💰 Cash rate: 4.35%</strong> — held since the 5 May 2026 hike of +25bp<br><em>现金利率维持在4.35%，自2026年5月5日加息25个基点后持续不变</em></li>
-    <li><strong>📅 Next decision: 29 September 2026</strong> (Tuesday, 2:30pm AEST)<br><em>下次决策：2026年9月29日（星期二）下午2点30分澳东时间</em></li>
-    <li><strong>📝 RBA statement (May 2026):</strong> "Inflation picked up materially in the second half of 2025... Middle East conflict has resulted in sharply higher fuel and related commodity prices... underlying inflation peaking higher than expected in February... risks remain tilted to the upside"</li>
-    <li><strong>🏦 All 4 big banks now expect RBA to hold at 4.35% through end-2026</strong> — the rate-hike margin-expansion thesis has collapsed; NIM never expanded despite the highest cash rate in over a decade<br><em>四大行均预期联储年底前维持4.35%不变——加息净息差扩张逻辑已破灭；尽管现金利率为十年来最高，NIM从未扩张</em></li>
-    <li><strong>📊 Market pricing:</strong> easing expected to begin in <strong>2027</strong> (CBA: two 25bp cuts May + Aug 2027; ANZ: 50bp across H2 2027)<br><em>市场定价：预计2027年开始降息（CBA：2027年5月+8月各降25bp；ANZ：2027年下半年共降50bp）</em></li>
-    <li><strong>🔜 What's next:</strong> 29 Sep decision will be closely watched — no cut expected, but the tone on Middle East oil shock and inflation persistence will set the 2027 path</li>
-  </ul>
-</div>
-
-<!-- SECTION 4: Silicon Valley Debt Machine — EXPANDED CHINESE -->
-<div class="section">
-  <div class="section-title">🌐 Silicon Valley's Debt Machine — Deep Dive (硅谷债务机器深度解读)</div>
-  <div class="source">Source: AFR, Christopher Joye, 11 Sep 2026; Investing.com analysis; FT</div>
-
-  <div class="subhead">The core thesis / 核心论点</div>
-  <div class="quote">
-    <span class="quote-label">🌍 核心论点</span>
-    Every asset on earth is anchored by one variable: the long-term, risk-free, real interest rate. After four decades of near-continuous decline, that rate is being emphatically repriced. And the striking thing is WHO is doing the repricing — not central banks or treasuries, but markets in response to the machines.
-  </div>
-  <p style="font-size:0.85rem;color:var(--muted);font-style:italic;line-height:1.7;"><strong>地球上每一个资产都由一个变量锚定：长期、无风险、实际利率。</strong> 经过近四十年的近乎持续下降后，这一利率正在被强烈而明确地重新定价。而最引人注目的是——<strong>重新定价的主体是谁？</strong> 不是中央银行，不是财政部，而是<strong>市场本身对机器做出的反应</strong>。<br><br>
-  <strong>换句话说：</strong> 过去四十年里，利率一直在走低，这让所有资产都水涨船高。但现在，这个 formerly 被央行和国库默默掌控的变量，突然成了市场左右的棋子——而市场的情绪，直接跟 AI 机器群的资本支出绑在了一起。AI 不再是股市里的"增长故事"，它成了债市里真正的"杠杆故事"。</p>
-
-  <div class="subhead">The numbers / 核心数字</div>
-  <ul>
-    <li>The Big 5 hyperscalers (Amazon, Alphabet, Meta, Microsoft, Oracle) will spend <strong>~$800 billion on capex in 2026</strong>, climbing toward <strong>$1.1 trillion in 2027</strong> — nearly double 2025 and triple 2024 (Morgan Stanley)<br><em>五大超级云计算公司（Amazon、Alphabet、Meta、Microsoft、Oracle）2026年资本支出约8000亿美元，2027年将攀升至1.1万亿美元——几乎是2025年的一倍、2024年的三倍（摩根士丹利）</em></li>
-    <li>That is "the digital equivalent of rebuilding the interstate highway system while the economy is still driving on it" — 在经济体还在老路上行驶的时候，重建州际高速公路系统的数字版<br><em>相当于"在经济体还在旧路上行驶的时候，重建州际高速公路系统的数字版"</em></li>
-    <li>US investment-grade bond issuance is already ~20% above last year; technology alone is <strong>18% of all USD IG issuance, double last year's pace</strong><br><em>美国投资级债券发行量已比去年高出约20%；科技板块 alone 占所有美元投资级债券发行的18%，是去年节奏的两倍</em></li>
-    <li>Morgan Stanley estimates credit markets will finance <strong>&gt;$1 trillion in global data-center spending through 2028</strong><br><em>摩根士丹利估计信贷市场将在2028年前为全球数据中心开支提供超过1万亿美元的融资</em></li>
-  </ul>
-
-  <div class="subhead">债券市场 vs 股票市场的读法 — 中英文对照</div>
-  <ul>
-    <li><strong>Equities still treat AI as a growth story / 股票市场仍把AI当"增长故事"</strong> — AI公司仍按高增长、高利润预期估值，投资者买入是看"未来会更大"</li>
-    <li><strong>Bond markets increasingly treat it as a leverage story / 债券市场 increasingly 把它当"杠杆故事"</strong> — 债券投资者买入的不再是AI有多聪明，而是看它要借多少钱、能否还款。AI公司的资产负债表正在从"轻盈的软件公司"演变为"资本饥渴的公用事业巨头"，但估值还保留软件公司水位<br><em>AI公司曾是现金印钞机般的软件巨头，资产负债表极轻；如今它们正在演变为资本饥渴的公用事业巨头，却还保留着软件公司的估值</em></li>
-    <li>Free cash flow is being shoveled directly into data centers, chip clusters, cooling towers, and power grids — Amazon's FCF already looks like "a company trying to swallow an aircraft carrier whole"<br><em>亚马逊的自由现金流看起来就像"一家试图整吞航空母舰的公司"——现金被直接铲入数据中心、芯片集群、冷却塔和电网</em></li>
-  </ul>
-
-  <div class="subhead">Cracks emerging / 裂痕显现</div>
-  <ul>
-    <li>After ~$300B of AI debt flooded markets, investors are starting to push back — 约3000亿美元AI债务涌入市场后，投资者开始反弹<br><em>AI债务潮刚 past 3000亿美元，投资者开始反弹</em></li>
-    <li>Meta's latest jumbo bond deal: still huge demand, but the order book was materially smaller than the previous frenzy — Meta最新大型债券：需求依然巨大，但认购书比以前的疯狂明显缩小<br><em>Meta最新贷款规模依然巨大，但认购热情比往届明显降温</em></li>
-    <li>SoftBank-linked financing had to sweeten yields just to get buyers — 软银关联融资不得不加息才吸引买家<br><em>软银关联融资一度被迫提高收益率才找到买家</em></li>
-    <li>Lenders are increasingly demanding backstops, guarantees, covenant protections tied to data-center projects — 贷款机构越来越要求 backs tops、担保、与数据中心项目挂钩的契约保护<br><em>贷款机构开始要求备用还款安排、担保、以及绑定数据中心项目的契约保护</em></li>
-    <li>Oracle-linked financing took &gt;6 months to distribute — some lenders explored selling at a discount — 甲骨文关联融资花了6个多月才分配完——有些贷款机构曾探索折价出售<br><em>甲骨文关联融资一度花了六个多月才分配完毕，部分贷款机构甚至考虑折价出售</em></li>
-    <li>FT reported major lenders are scrambling to offload pieces of massive data-center loans through private transactions and synthetic structures — 金融时报报道称，主要贷款机构正在争相通过私下交易和合成结构甩掉部分巨型数据中心贷款<br><em>FT报道：主要贷款机构争相通过私下交易和合成结构甩掉部分巨型数据中心贷款</em></li>
-  </ul>
-
-  <div class="subhead">The "concentration without upside" risk (Goldman) / 高盛警告：无上涨潜力的集中风险</div>
-  <ul>
-    <li>The IG bond market is becoming dangerously concentrated around a handful of hyperscalers and data-center financings — 投资级债券市场正危险地集中在少数超大规模云计算商和数据中心融资周围<br><em>投资级债券市场正危险地集中在少数超大规模云公司和数据中心融资周围</em></li>
-    <li>Oracle has become one of the largest risk-weighted names in the IG universe; Meta rocketed up the rankings in &lt;1 year — 甲骨文已成为投资级债券宇宙中最大的风险加权名称之一；Meta在不到1年内飞涨排名<br><em>甲骨文已成为投资级债券体系中风险加权排名最高的名称之一；Meta在不到一年时间里蹿升排名</em></li>
-    <li>Bondholders absorb the same concentration risk as equity holders but with capped returns and massive downside asymmetry if spreads widen aggressively — 债券持有人承担与股票持有人相同的集中风险，但回报上限且 spreads 大幅走宽时 downside 不对称巨大<br><em>债券持有人承担与股票持有人相同的集中风险，但回报上限封顶，若信用利差大幅走宽，亏损不对称放大</em></li>
-    <li>Goldman calls it <strong>"concentration without the upside"</strong> — 高盛称之为<strong>"无上涨潜力的集中"</strong><br><em>高盛称为"无上涨潜力的集中"——风险集中在少数几个名字上，但回报不对称</em></li>
-  </ul>
-
-  <div class="subhead">What this means for Australia / 对澳洲意味着什么</div>
-  <div class="quote">
-    <span class="quote-label">🇦🇺 对澳洲意味着什么</span>
-    "For Australia, the irony is that we import the shock without the boom. We account for a sliver of AI capex, yet an open economy pays the world price of capital."
-  </div>
-  <p style="font-size:0.85rem;color:var(--muted);font-style:italic;line-height:1.7;"><strong>对澳洲而言，具有讽刺意味的是：我们进口了冲击，却没有繁荣。</strong> 我们只占AI资本支出的一小部分，但作为开放经济体，我们支付着世界资本价格。<br><br>
-  全球实际利率上升 → 澳洲借贷成本上升 → 住房、商业投资、政府债务偿还承压。澳洲矿业和科技股相对于美国超大规模云计算商是小盘——它们搭AI叙事便车，却不直接享有资本支出boom。<br><br>
-  <strong>一句话总结 / In one sentence:</strong><br>
-  <span class="quote"><span class="quote-label">💡</span> The AI supercycle is now a debt-fueled power-grid expansion disguised as a technology rally — and the entire thing rests on one fragile assumption: that credit markets remain permanently open, liquid, and willing to absorb trillions in new supply without demanding meaningfully higher compensation.</span><br>
-  <em>AI超周期现在是伪装成科技牛市的债务驱动电网扩张——整个事情建立在一个脆弱假设上：信贷市场将永远保持开放、流动性充足，并愿意在不要求明显更高补偿的情况下吸收数万亿美元新供给。</em></p>
-</div>
-
-<!-- SECTION 5: AI Frontier + SpaceX -->
-<div class="section">
-  <div class="section-title">🔬 AI Frontier — Anthropic / OpenAI / DeepSeek / SpaceX Latest (AI前沿：三大模型公司 + SpaceX动态)</div>
-  <div class="source">AI前沿：Anthropic、OpenAI、DeepSeek最新动态 + SpaceX Starship/Starlink</div>
-
-  <div class="subhead">Anthropic — Claude (克劳德)</div>
-  <ul>
-    <li><strong>5月28日 · Series H:</strong> Raised <strong>$65 billion</strong> at a <strong>$965 billion post-money valuation</strong> — one step from the trillion-dollar club. Co-led by Altimeter, Dragoneer, Greenoaks, Sequoia; also Capital Group, Coatue, D1, GIC, ICONIQ, XN, Baillie Gifford, Blackstone, Brookfield, Fidelity, JPMorgan, Temasek. Amazon committed an extra <strong>$5 billion cash</strong>.<br><em>以9650亿美元的后估值融得650亿美元，迪家之门一步之遥。联合领投Altimeter、Dragoneer、Greenoaks、Sequoia；此外Capital Group、Coatue、D1、GIC、ICONIQ、XN、Baillie Gifford、Blackstone、Brookfield、Fidelity、JPMorgan、Temasek等参投。Amazon额外承诺50亿美元现金。</em></li>
-    <li><strong>Claude Opus 4.8</strong> (same day, GA): Flagship model. SWE-bench Pro 69.2%, computer-use 84%, legal-agent benchmark first to exceed 10% — all ahead of GPT-5.5. Agentic judgment and coding-context honesty significantly improved; "markedly lower rates of misaligned behaviour than Opus 4.7".<br><em>旗舰模型。SWE-bench Pro 69.2%、电脑操控84%、法律Agent基准首个突破10%——全部领先GPT-5.5。Agent判断力和编码上下文诚实度显著提升；与Opus 4.7相比出现"明显更低的未对齐行为比率"。</em></li>
-    <li><strong>Claude Fable 5</strong> (6月9日): First "Mythos-class" model — a tier above Opus in capability, made safe for general release through dual-use safeguards. Later Fable 5.1 brings 25-45% cost reductions on certain workloads.<br><em>首个"Mythos级"模型——能力比Opus更高一层，通过双重用途防护措施实现安全公开发布。后续Fable 5.1在某些工作负载上带来25-45%成本降低。</em></li>
-    <li><strong>Claude Sonnet 5</strong> (6月30日): Near-Opus coding at Sonnet prices, 1M context window, new tokenizer ~30% more tokens per text than Sonnet 4.6.<br><em>接近Opus水平的编码能力，Sonnet价格，100万上下文窗口，新分词器比Sonnet 4.6每文本多出力30%token。</em></li>
-    <li><strong>Amazon deal (Apr + Sep 2026):</strong> Amazon agreed to invest up to <strong>$25 billion more</strong>; Anthropic pledged to spend <strong>&gt;$100 billion on AWS over the next decade</strong>, using Amazon Trainium custom silicon. Project Rainier cluster already deploys &gt;1 million Trainium2 chips.<br><em>Amazon同意再投资高达250亿美元；Anthropic承诺未来十年在AWS花费超过1000亿美元，使用Amazon Trainium定制芯片。Project Rainier集群已部署超过100万颗Trainium2芯片。</em></li>
-    <li><strong>Risk / controversy:</strong> Claude Mythos (cyber-capable) was forced offline for public access after the US government ordered Anthropic to stop foreign nationals from using it — Anthropic complied. OpenAI's GPT-5.6 faced the same staggered-release request.<br><em>网络安全能力的Claude Mythos被迫下线公众访问——因美国政府命令Anthropic阻止外国国民使用。Anthropic遵从。OpenAI的GPT-5.6面临同样的分阶段发布要求。</em></li>
-  </ul>
-
-  <div class="subhead">OpenAI — ChatGPT (chatgpt)</div>
-  <ul>
-    <li><strong>3月31日 · Funding:</strong> Raised <strong>$122 billion</strong> at <strong>$852 billion valuation</strong>. Anchored by Amazon, NVIDIA, SoftBank; Microsoft continued participation; SoftBank co-led with a16z, D.E. Shaw, MGX, TPG, T. Rowe Price.<br><em>8520亿美元估值融资1220亿美元。锚定投资者：Amazon、NVIDIA、SoftBank；Microsoft继续参投；SoftBank联合领投，a16z、D.E. Shaw、MGX、TPG、T. Rowe Price随后。</em></li>
-    <li><strong>GPT-5.5</strong> (4月23日): Latest model — "better at coding, using computers, and pursuing deeper research." Rolling out to Plus/Pro/Business/Enterprise users in ChatGPT + Codex.<br><em>最新模型——"在编码、使用电脑、深入研究方面更出色"。向ChatGPT Plus/Pro/Business/Enterprise用户及Codex推出。</em></li>
-    <li><strong>GPT-5.6</strong> (6月26日): Three versions — <strong>Sol</strong> (strongest), <strong>Terra</strong> (cheaper), <strong>Luna</strong> (lowest cost). Release staggered per US government request: only a "small group of trusted partners" (all US-based) get preview first; government approves access customer-by-customer.<br><em>三个版本——Sol（最强）、Terra（更便宜）、Luna（最低成本）。因美国政府要求分阶段发布：仅"一小群可信赖的合作伙伴"（均为美国机构）先获得预览；政府逐个客户审批访问权限。</em></li>
-    <li>OpenAI's Denise Dresser: enterprise customers will be 50% of business by year-end 2026.<br><em>OpenAI的Denise Dresser：企业客户将在2026年底成为业务的50%。</em></li>
-    <li><strong>Available on Nous inference:</strong> GPT-5.6 Sol / Terra / Luna, GPT-5.5, GPT-5.4 — all accessible via the same API endpoint.</li>
-  </ul>
-
-  <div class="subhead">DeepSeek — 中国模型 (中国初创)</div>
-  <ul>
-    <li><strong>4月24日 · V4-Pro + V4-Flash:</strong> V4-Pro is a 1.6-trillion total-parameter MoE model (49B active per token), 1M context window; V4-Flash is a lighter 284B total / 13B active sibling. Both available via OpenAI-compat and Anthropic-compat APIs.<br><em>V4-Pro是1.6万亿总参数MoE模型（每token激活490亿），100万上下文窗口；V4-Flash是较轻的2840亿总参数/130亿激活的兄弟模型。两者均可通过OpenAI兼容和Anthropic兼容API使用。</em></li>
-    <li><strong>Claim:</strong> V4-Pro beats all rival open models in maths and coding. Stanford AI Index 2026 acknowledges China has "effectively closed" the AI performance gap with US rivals (though the US still leads in top-tier model count and high-impact patents).</li>
-    <li><strong>8月21日 · V4-Flash-Vision-Exp:</strong> Experimental multimodal vision model now on the API.</li>
-    <li><strong>9月14日起 · V4-Pro sunset:</strong> DeepSeek will retire V4-Pro; all requests to <code>deepseek-v4-pro</code> will route to <strong>V4.1 Flash</strong> (which comprehensively surpasses V4 Pro in performance, cost, and speed) and be billed at V4.1 Flash pricing.<br><em>DeepSeek将停用V4-Pro；所有发往deepseek-v4-pro的请求将路由至V4.1 Flash（在性能、成本和速度上全面超越V4 Pro），按V4.1 Flash计费。</em></li>
-    <li><strong>DeepSeek-R1 (Jan 2025):</strong> Still the open-weight reasoning benchmark — first widely available model to show reasoning emerging from RL on verifiable tasks rather than supervised fine-tuning.</li>
-  </ul>
-
-  <div class="subhead">SpaceX — Starship / Starlink (空间探索技术公司)</div>
-  <ul>
-    <li><strong>🚀 Starship Flight 14 — 首次真正入轨尝试，拟于9月15日发射</strong><br><em>SpaceX正在准备Starship第14次试飞——可能是该火箭首次真正进入轨道的尝试，目标发射时间不早于9月15日（次窗口9月18日）。</em></li>
-    <li><strong>任务核心：</strong>搭载约20颗<strong>Starlink V3卫星</strong>入轨——这是Falcon 9无法部署的硬件。V3卫星每颗重约2000公斤（是V2 Mini的3倍多），物理尺寸太大装不进Falcon 9整流罩；Starship单次可携带多达60颗V3。单次Starship任务增加的下行容量约为61,000 Gbps，<strong>是Falcon 9 V2任务的23倍</strong><br><em>本次任务核心是部署约20颗Starlink V3卫星——这是Falcon 9无法部署的硬件。V3卫星每颗重约2000公斤（是V2 Mini的三倍多），物理尺寸太大装不进Falcon 9整流罩；Starship单次可携带多达60颗V3。单次Starship任务增加的下行容量约61,000 Gbps，是Falcon 9 V2任务的23倍。</em></li>
-    <li><strong>Starship为何不能等：</strong>每颗V3银卫提供约1,024 Gbps下行吞吐（是V2 Mini的10倍），且星间激光链路升级到每链路400 Gbps——突破容量瓶颈是Starlink在拥堵市场扩容的关键。SpaceX 8月31日向FCC提交的文件是首份描述"轨道第二级"的Starship监管文件，要求部署后在42.0-42.5 GHz频段（空地）运行60天的特别临时授权<br><em>Starship为何不能等待：每颗V3卫星提供约1024 Gbps下行吞吐（是V2 Mini的10倍），且星间激光链路升级至每链路400 Gbps——突破容量瓶颈是Starlink在拥堵市场扩容的关键。SpaceX 8月31日FCC文件是首份描述"轨道第二级"的Starship监管文件，申请部署后在42.0-42.5 GHz频段运行60天的特别临时授权。</em></li>
-    <li><strong>硬件进展：</strong>Booster 21（Block 3 Super Heavy，配33台Raptor 3引擎）已于8月28日在Starbase完成全持续33引擎静态试火；Ship 41（上级）在Massey's Test Site完成自身引擎测试。剩下的 gating item 是FAA发射许可证——截至9月11日尚未颁发，但预期很快<br><em>硬件进展：Booster 21（Block 3 Super Heavy，配33台Raptor 3引擎）已于8月28日在Starbase完成全持续33引擎静态试火；Ship 41（上级）在Massey's Test Site完成自身引擎测试。剩下的 gating 项是FAA发射许可证——截至9月11日尚未颁发，但预期很快。</em></li>
-    <li><strong>飞行剖面：</strong>Booster 21从Starbase Orbital Launch Pad 2点火升空（全33台Raptor 3同时点火），级间分离后Booster执行boostback燃烧，目标可控降落入墨西哥湾（有意海洋溅落，<strong>非塔架捕获</strong>——SpaceX已公开确认Flight 14不进行Booster捕获）；Ship 41继续注入燃烧，随后进行空间中Raptor引擎relight以实现轨道插入——此前尚未完全在轨道剖面上演示过该能力。若轨道插入燃烧成功，飞行器将在轨道上滑行，释放Starlink V3载荷，然后再次点火进行离轨燃烧；SpaceX计划Ship 41在印度洋溅落（与Flight 12/13同区），Starbase Mechazilla塔臂的上级捕获尝试已推迟——Elon Musk 8月下旬表示船体捕获尝试"还有几个月"<br><em>飞行剖面：Booster 21从Starbase Orbital Launch Pad 2点火升空（全33台Raptor 3同时点火），级间分离后Booster执行boostback燃烧，目标可控降落入墨西哥湾（有意海洋溅落，非塔架捕获——SpaceX已公开确认Flight 14不进行Booster捕获）；Ship 41继续注入燃烧，随后进行空间中Raptor引擎relight以实现轨道插入——此前尚未完全在轨道剖面上演示过该能力。若轨道插入燃烧成功，飞行器将在轨道上滑行，释放Starlink V3载荷，然后再次点火进行离轨燃烧；SpaceX计划Ship 41在印度洋溅落（与Flight 12/13同区），Starbase Mechazilla塔臂的上级捕获尝试已推迟——Elon Musk 8月下旬表示船体捕获尝试"还有几个月"。</em></li>
-    <li><strong>战略背景：</strong>Elon Musk押注Starship的愿景是——将来用Starship建造环绕地球的AI数据中心网络、运送人类至月球和火星，但投资者更关心的是AI、火星、Starlink三者的利益平衡。眼下，Starship的急迫商业意义在于<strong>Starlink V3部署：每成功一次入轨，都会为Starlink在拥堵市场的 subscribers 增加数十年容量</strong>。SpaceX总裁兼COO Gwynne Shotwell 6月重申公司目标：<strong>月度Starship发射频率</strong>，Starbase的硬件处理节奏显示Flight 15的准备工作已在同时推进<br><em>战略背景：Elon Musk押注Starship的愿景是——将来用Starship建造环绕地球的AI数据中心网络、运送人类至月球和火星，但投资者更关心的是AI、火星、Starlink三者的利益平衡。眼下，Starship的急迫商业意义在于Starlink V3部署：每成功一次入轨，都会为Starlink在拥堵市场的 subscribers 增加巨量容量。SpaceX总裁兼COO Gwynne Shotwell 6月重申公司目标：月度Starship发射频率，Starbase的硬件处理节奏显示Flight 15的准备工作已在同时推进。</em></li>
-    <li><strong>关联性 / 与AI主题的联系：</strong>Starship若成功入轨，将成为AI数据中心太空部署的基础设施先河（Bloomberg 9月11日报道：SpaceX计划用Starship搭载"orbiting AI data centers"）——这也是为什么AI债务机器和SpaceX会在同一份简报里同时出现：AI厂商需要算力，SpaceX提供运载+在轨算力两种未来选项<br><em>与AI主题的联系：Starship若成功入轨，将成为AI数据中心太空部署的基础设施先河（Bloomberg 9月11日报道：SpaceX计划用Starship搭载"环绕地球的AI数据中心"）——这也是为什么AI债务机器和SpaceX会在同一份简报里同时出现：AI厂商需要算力，SpaceX提供运载+在轨算力两种未来选项。</em></li>
-  </ul>
-
-  <div class="subhead-trans">投资者角度的总结</div>
-  <ul>
-    <li>三大AI公司（Anthropic、OpenAI、DeepSeek）都在以巨额资本堆叠算力（Anthropic $65B融资 + $100B AWS承诺；OpenAI $122B融资；DeepSeek靠本身资金堆V4）——<strong>资本支出速度相当于重建州际公路系统的数字版</strong></li>
-    <li>模型迭代速度极快：Claude Fable 5 (6月) → Sonnet 5 (6月底) → GPT-5.5 (4月) → GPT-5.6 (6月) → DeepSeek V4 (4月) → V4.1 (9月)</li>
-    <li>SpaceX的Starship Flight 14（9月15日窗口）若成功，将是AI数据中心太空版图的基础设施里程碑——Starlink V3每颗1 Tbps、下行链路升级至400 Gbps，60颗/次发射、单次增加61,000 Gbps容量，是Falcon 9的23倍</li>
-    <li>监管风险上升：Anthropic Mythos 和 OpenAI GPT-5.6 都被美国政府要求分阶段发布——AI监管正在从"自我监管"走向实质性政府介入</li>
-  </ul>
-</div>
-
-<!-- SECTION 6: AU Data Centre Stocks -->
-<div class="section">
-  <div class="section-title">🏢 AU Data Centre &amp; Infrastructure Stocks — NXT / MAQ / MP1 / GMG</div>
-  <div class="source">Source: AFR, ASX announcements, Reuters, Yahoo Finance, marketindex.com.au (10 Sep 2026)</div>
-
-  <div class="table-wrap">
-    <table>
-      <thead>
-        <tr><th>Ticker</th><th>Name</th><th>Price</th><th>What it is</th><th>Key data</th></tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td class="ticker">NXT</td>
-          <td>NEXTDC Limited</td>
-          <td><strong>$12.30</strong><br><span class="neg">-3.8% WoW</span></td>
-          <td>AU/NZ data centre REIT — pure play</td>
-          <td>A$1.1B convertible notes (3rd raise in ~4mo); 740MW contracted utilisation (+11% YoY); 565MW forward order book; added to S&P DJI Sep 2026 rebalance; pro forma liquidity A$8.676B</td>
-        </tr>
-        <tr>
-          <td class="ticker">MAQ</td>
-          <td>Macquarie Technology Group</td>
-          <td><strong>~$62.43</strong><br><span class="neg">-1.84% day</span></td>
-          <td>Data centres + cloud + cybersecurity + telco</td>
-          <td>YTD +20.3%; P/E ~49.8x; market cap ~$1.6B; premium valuation for cyber/data centre hybrid</td>
-        </tr>
-        <tr>
-          <td class="ticker">MP1</td>
-          <td>Megaport Limited</td>
-          <td><strong>~$18.25</strong><br><span class="pos">+11.21% WoW</span></td>
-          <td><strong>⚠️ Not a data centre</strong> — SDN network connectivity platform (connects to DCs/clouds/exchanges virtually)</td>
-          <td>Outperformer as rate fears hit market; long-duration data connectivity growth story; "network layer" play on the AI/IDC boom</td>
-        </tr>
-        <tr>
-          <td class="ticker">GMG</td>
-          <td>Goodman Group</td>
-          <td><strong>$27.16</strong><br>1yr: <span class="neg">-18.8%</span></td>
-          <td>Global data centre + industrial logistics property landlord (US/Europe/Asia-Pacific)</td>
-          <td>FY26 OP +10.1% to A$2.675B; EPS +10.1% to 129.9c; FY27 target +9% EPS; dev workbook A$19.7B (incl. 0.5 GW DC); gearing 6.5%; P/E ~20.3x; mkt cap ~A$55.6B; div 30c (1.10%); next earnings Nov 4 2026</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-
-  <div class="subhead">Hold notes 持有备注</div>
-  <ul>
-    <li><strong>NXT</strong> — purest ASX-listed data centre REIT proxy; AU/NZ campus network, enterprise + hyperscaler tenants<br><em>ASX上市数据中心REIT中最纯的模式——澳/New西兰园区网络、企业+超大规模云租户</em></li>
-    <li><strong>MAQ</strong> — more diversified (govt/cloud/cyber), less pure-play data centre than NXT<br><em>更分散（政府/云/网络安全），不如NXT纯数据中心模式</em></li>
-    <li><strong>MP1</strong> — "network layer" play on the same AI/data centre boom — benefits when enterprises connect more workloads<br><em>"网络层"投资——同一AI/数据中心热潮，企业连接更多工作负载时受益</em></li>
-    <li><strong>GMG</strong> — global data-centre + industrial landlord proxy; pure property/real-estate play on the same AI/infrastructure megatrend as NXT, but broader (logistics + data centres), global footprint, partnership-capital model<br><em>全球数据中心+工业地产 landlord 代理——与NXT一样跻身同一AI/基础设施巨浪，但覆盖范围更广（物流+数据中心）、全球足迹、合伙模式</em></li>
-  </ul>
-</div>
-
-<!-- SECTION 7: Big Four Banks -->
-<div class="section">
-  <div class="section-title">🏦 Big Four Banks — NAB / CBA / ANZ / Westpac Deep Dive (四大行深度)</div>
-  <div class="source">Source: AFR, StockWireX, MPA, company ASX disclosures (Aug-Sep 2026)</div>
-
-  <div class="subhead">共同主题——"创纪录利润，股价下跌" / Record profits, falling share prices</div>
-  <ul>
-    <li>四家银行均录得创纪录或优质业绩，但股价集体下跌——CBA暴跌9.9%、Westpac跌8.8%，拖累整个金融板块，跑输上涨1.1%的ASX 200<br><em>All four banks delivered record or strong results, but share prices fell collectively — CBA -9.9%, Westpac -8.8%, dragging the entire financial sector, underperforming the ASX 200's +1.1%</em></li>
-    <li>核心原因：<strong>房贷(mortgage)申请量暴降10-20%</strong>——NAB官宣环比降15%、ANZ确认降12%，CBA/Westpac传媒报道双位数下降<br><em>Core reason: mortgage applications collapsed 10-20% — NAB officially reported -15% QoQ, ANZ confirmed -12%, CBA/Westpac media reports double-digit drops</em></li>
-    <li>政策因素：5月中旬联邦预算<strong>房地产税优惠政策变动</strong>，打击了投资者信心<br><em>Policy factor: mid-May federal budget changes to property tax concessions dampened investor confidence</em></li>
-    <li>坏账苗头：90天+逾期贷款升至<strong>1.08%</strong>，CBA拨备费用+9%，Morningstar上调CBA FY26拨备预期3.5亿澳元<br><em>Delinquency signs: 90+ day overdue loans rose to 1.08%, CBA provision expense +9%, Morningstar raised CBA FY26 provision estimate by A$350M</em></li>
-  </ul>
-
-  <div class="subhead">CBA (Commonwealth Bank) 联邦银行</div>
-  <ul>
-    <li>FY26现金净利润<strong>109.8亿澳元</strong>（+7%），创纪录；营收302亿澳元<br><em>FY26 cash net profit A$10.98B (+7%), record; revenue A$30.2B</em></li>
-    <li>ROE 14.0%，全部分红$5.05/股（fully franked），CET1比率12.0%<br><em>ROE 14.0%, full dividend $5.05/share (fully franked), CET1 ratio 12.0%</em></li>
-    <li>房贷申请环比<strong>降17%</strong>；逾期率上升：住宅按揭0.73%，个人贷款1.72%<br><em>Mortgage applications -17% QoQ; delinquency rising: residential mortgage 0.73%, personal loans 1.72%</em></li>
-    <li>市盈率<strong>24.6倍</strong>，分红收益率仅<strong>3.15%</strong>——四家里估值最高、回调缓冲最小<br><em>P/E 24.6x, dividend yield only 3.15% — highest valuation among the four, smallest correction buffer</em></li>
-    <li>交易价格$158.69</li>
-  </ul>
-
-  <div class="subhead">NAB (National Australia Bank) 国民银行</div>
-  <ul>
-    <li>Q3现金盈利<strong>18.3亿澳元</strong>（+2% vs H1季均），四家里季度盈利增速最强（环比+32%）<br><em>Q3 cash profit A$1.83B (+2% vs H1 quarterly avg), strongest quarterly profit growth among the four (+32% QoQ)</em></li>
-    <li>房贷申请环比<strong>-15%</strong>、年化<strong>-16%</strong>（Q3 FY26截至6月30日）——来源于NAB自己ASX披露<br><em>Mortgage applications -15% QoQ, -16% annualised (Q3 FY26 to 30 Jun) — per NAB's own ASX disclosure</em></li>
-    <li>业务贷款(企业/私人银行)全年增长<strong>7.3%</strong>——四家里唯一正增长的企业信贷，体现其"最大企业银行"地位<br><em>Business lending (corporate/private banking) +7.3% for the year — the only positive business credit growth among the four, reflecting its "largest business bank" status</em></li>
-    <li>预留了近<strong>20亿澳元</strong>前瞻性压力拨备<br><em>Reserved nearly A$2B in forward-looking stress provisions</em></li>
-    <li>交易价格$38.87，市盈率19.6倍，分红收益率4.33%</li>
-  </ul>
-
-  <div class="subhead">ANZ 盎司银行</div>
-  <ul>
-    <li>Q3现金利润<strong>19亿澳元</strong>，重申全年目标不变<br><em>Q3 cash profit A$1.9B, reaffirmed full-year targets unchanged</em></li>
-    <li>房贷申请确认<strong>-12%</strong> 同比跌<br><em>Mortgage applications confirmed -12% YoY</em></li>
-    <li>企业业务贷款仅增长<strong>3.4%</strong>——四家里最弱<br><em>Business lending growth only 3.4% — weakest among the four</em></li>
-    <li>CET1比率维持12%以上<br><em>CET1 ratio maintained above 12%</em></li>
-    <li>交易价格$36.94，市盈率17倍，分红收益率4.37%</li>
-  </ul>
-
-  <div class="subhead">Westpac 西部银行</div>
-  <ul>
-    <li>Q3法定利润<strong>18亿澳元</strong>（+3% 环比）<br><em>Q3 statutory profit A$1.8B (+3% QoQ)</em></li>
-    <li>因高于基准情景的拨备缓冲<strong>20亿澳元</strong>，市场解读较负面——单日5.9%暴跌（8月10日），月度跌幅8.8%是四家里第二严重<br><em>Additional A$2B provisioning buffer above base scenario received negative market interpretation — single-day -5.9% plunge (10 Aug), monthly -8.8% second worst among the four</em></li>
-    <li>总信贷拨备增至<strong>53亿澳元</strong>——四家里拨备最高<br><em>Total credit provisions increased to A$5.3B — highest among the four</em></li>
-    <li>业务贷款全年猛增<strong>15%</strong>——农业/医疗/专业服务领域表现抢眼，意外成为"黑马"；Westpac是四家里唯一业务贷款大增的<br><em>Business lending surged 15% for the year — standout performance in agriculture/medical/professional services, unexpectedly becoming the "dark horse"; Westpac is the only bank among the four with significant business lending growth</em></li>
-    <li>交易价格$34.58，市盈率20倍，分红收益率4.41%</li>
-  </ul>
-
-  <div class="subhead-trans">银行板块及数据中心股投资逻辑 — 6只股票对比</div>
-
-  <div class="table-wrap">
-    <table>
-      <thead>
-        <tr><th>代码</th><th>名称</th><th>价格</th><th>估值</th><th>业务模式</th><th>核心看点</th></tr>
-      </thead>
-      <tbody>
-        <tr><td class="ticker">NXT</td><td>NEXTDC数据中心</td><td>$12.30</td><td>~纯数据中心REIT</td><td>澳/New西兰园区网络，企业+超大规模云租户</td><td>A$1.1B可换股债券、565MW订单簿、纳入S&P DJI</td></tr>
-        <tr><td class="ticker">MAQ</td><td>麦格理科技</td><td>~$62.43</td><td>P/E ~49.8x</td><td>数据中心+云+网络安全+电信</td><td>YTD +20.3%，多元化模式</td></tr>
-        <tr><td class="ticker">MP1</td><td>梅格波特</td><td>~$18.25</td><td>—</td><td>SDN网络连接平台（非数据中心）</td><td>周涨11.21%，"网络层"连接受益于AI基建</td></tr>
-        <tr><td class="ticker">GMG</td><td>Goodman集团</td><td>$27.16</td><td>P/E ~20.3x</td><td>全球数据中心+工业物流地产地主（合伙模式）</td><td>开发簿197亿澳元、0.5GW数据中心、FY26 OP+10.1%</td></tr>
-        <tr><td class="ticker">CBA</td><td>联邦银行</td><td>$158.69</td><td>P/E 24.6x</td><td>四大行之首，记录盈利</td><td>房贷-17%、NIM-3bp、拨备上升</td></tr>
-        <tr><td class="ticker">NAB</td><td>国民银行</td><td>$38.87</td><td>P/E 19.6x</td><td>企业银行龙头</td><td>业务贷款+7.3%，季盈利环比+32%</td></tr>
-        <tr><td class="ticker">ANZ</td><td>盎司银行</td><td>$36.94</td><td>P/E 17x</td><td>四家里估值最低</td><td>房贷-12%、企业贷款+3.4%偏弱</td></tr>
-        <tr><td class="ticker">WES</td><td>西部银行</td><td>$34.58</td><td>P/E 20x</td><td>业务贷款+15%黑马</td><td>拨备53亿最高，单日曾暴跌5.9%</td></tr>
-      </tbody>
-    </table>
-  </div>
-
-  <p style="margin-top:8px;"><strong>投资逻辑:</strong> 数据中心基建板块（NXT/MAQ）受益于AI算力需求持续爆发，MP1作网络连接受益于同一趋势；四大行则面临房贷申请暴降+NIM不升反降+拨备上升的三角压力，唯Westpac的业务贷款+15%及NAB的企业信贷+7.3%显示结构性机会。RBA 9月29日决议前利率预期维持4.35%，按揭成本高位将继续抑制购房需求。</p>
-  <p><em>Investment logic: Data centre infrastructure (NXT/MAQ) benefits from the sustained AI compute demand boom; MP1 as network connectivity benefits from the same trend; the Big Four banks face a triple pressure of mortgage-app collapse + NIM not expanding + provisions rising — only Westpac's +15% business lending and NAB's +7.3% corporate credit show structural opportunity. RBA 29 Sep decision keeps rates at 4.35% — mortgage costs remain elevated, continuing to suppress housing demand.</em></p>
-</div>
-
-<!-- SECTION 8: Property + Commercial -->
-<div class="section">
-  <div class="section-title">🏠 Australia Property Market — Residential + Commercial (澳洲房产趋势：住宅+商用)</div>
-  <div class="source">Source: AFR Property (afr.com/property) + realestate.com.au/news + NAB Commercial Property Survey Q2 2026 + Cushman &amp; Wakefield Australia Outlook 2026 + realestatesource.com.au</div>
-
-  <div class="subhead">🏡  Residential (住宅市场)</div>
-  <ul>
-    <li><strong>全国 (National):</strong> RBA预计房地产下滑将导致经济放缓，但不会引发衰退。全国拍卖维持低清盘率，卖家退意(seller retreat)正上升——"More sellers bail out of auction campaigns as market cools rapidly"<br><em>RBA expects property downturn to slow the economy but not cause a recession. National auctions maintain low clearance rates, seller retreat rising.</em></li>
-    <li><strong>VIC / Melbourne:</strong> 房市降温明显。首次购房者被建议"停止外出用餐"以攒首付（Country's top auctioneer语）。参考用户所关注的3029区域：拍卖氛围转弱，成交率承压<br><em>VIC/Melbourne cooling clearly. First-home buyers advised to "stop dining out" to save deposit. For the user's 3029 area: auction atmosphere weakening, clearance rates under pressure.</em></li>
-    <li><strong>NSW / Sydney:</strong> $2500万悉尼海边别墅上拍（"Location, location: $25m Sydney clifftop mansion up for grabs"）；Minns政府推阵性住房计划称将造"300万澳元单元"，被批"离 affordable 太远"（"Far from affordable": Minns' Sydney homes plan means $3m units）<br><em>NSW/Sydney: $25M Sydney clifftop mansion up for grabs; Minns govt push-in housing plan to build "$3M units" criticised as "far from affordable".</em></li>
-    <li><strong>价格修正:</strong> "Day of reckoning"——悉尼豪宅以比2022峰值低<strong>700万澳元</strong>售出；Bathla贷款人360 Capital"加速处置"住家和土地资产，显现出楼盘商链条压力<br><em>Price correction: "Day of reckoning" — Sydney mansion sold $7M below 2022 peak; Bathla lender 360 Capital "accelerating disposal" of residential and land assets, showing developer chain pressure.</em></li>
-    <li><strong>开发项目:</strong> Metrics房地产推盘因悉尼$1.8亿地块销售缓慢而受挫<br><em>Development project: Metrics property push affected by slow sales of Sydney $180M land parcel.</em></li>
-    <li><strong>RBA视角:</strong> 联储在5月决议中明确指出房地产下滑是经济放缓的一个因素，但目前并未进入衰退territory<br><em>RBA perspective: The Reserve Bank explicitly noted property downturn as a factor in economic slowdown in its May statement, but has not entered recession territory.</em></li>
-  </ul>
-
-  <div class="subhead-trans">总体看法 — 住宅</div>
-  <p>全国偏软／下行趋势。VIC/Melb降温更快且更广泛；NSW/Syd保持相对韧性但高端市场出现价格修正（$7m降幅）。首次购房者入场门槛高（首付攒钱建议可见一斑），卖家意愿上升导致市场成交氛围转弱，竞争减少。对用户3029区域而言，宏观趋势偏弱，个别房源仍可能因局部供需而表现不同——但整体氛围不如2024-2025年间的竞争态。</p>
-  <p><em>National trend: soft/downward. VIC/Melbourne cooling faster and more broadly; NSW/Sydney maintaining relative resilience but high-end market seeing price correction ($7M drop). First-home buyer entry threshold high (deposit-saving advice speaks volumes), seller willingness rising causing weaker transaction atmosphere and reduced competition. For the user's 3029 area: macro trend weak, individual properties may still perform differently due to local supply/demand — but overall atmosphere not as competitive as 2024-2025.</em></p>
-
-  <div class="subhead">🏢  Commercial Property (商用物业市场) — NAB调查 + Cushman &amp; Wakefield展望 + 市场动态</div>
-  <ul>
-    <li><strong>整体情绪：</strong>NAB商用物业指数Q2 2026放缓（+16 vs Q1 +30），但仍高于长期平均水平。未来12个月情绪也放缓（+20 vs +39 Q1），未来2年 likewise（+39 vs +45）。五个季度的高位后终于理性回落<br><em>Overall sentiment: NAB Commercial Property Index eased in Q2 2026 (+16 vs +30 Q1) but remains above long-run average. 12-month outlook also eased (+20 vs +39 Q1), 2-year likewise (+39 vs +45). After five elevated quarters, sentiment finally rationally moderating.</em></li>
-    <li><strong>按板块排序（当前情绪）：</strong><br>
-      <em>按板块排序（当前情绪）：</em>
-      <ul style="list-style:none;padding-left:8px;">
-        <li>🟢 <strong>Industrial / 工业物业: +34</strong> — 连续第二个季度排名第一，虽较Q1 +46有所放缓，但仍显著高于其它板块。工业租金预计未来12月增长2.2%、2年内2.7% — 所有板块中最高。QLD未来12月工业租金预期最强（+4.5%），2年内QLD领先4.7%<br><em>工业物业：+34 — 连续第二季度排名第一，虽较Q1 +46放缓但仍显著领先其它板块。工业租金预计12月内增长2.2%、2年内2.7%——所有板块最高。QLD 12月工业租金预期最强（+4.5%），2年内QLD领先4.7%。</em></li>
-        <li>🟡 <strong>Retail / 零售物业: +20</strong> — 略有改善（+18 → +20）。零售租金前景较弱：未来12月仅+0.7%、2年内+1.1%。但WA的零售租金预期最强（12月+3.0%、2年内+3.8%），VIC为负<br><em>零售物业：+20 — 略有改善（+18 → +20）。零售租金前景较弱：12月仅+0.7%、2年内+1.1%。但WA零售租金预期最强（12月+3.0%、2年内+3.8%），VIC为负。</em></li>
-        <li>🔴 <strong>Office / 办公物业: +9</strong> —  sharp fall from +31 Q1，降幅最大。维多利亚州办公情绪从-9略有改善至-7，但仍为负。所有州Q2办公情绪均下滑<br><em>办公物业：+9 — 降幅最大（从Q1 +31 sharply下滑）。维州办公情绪从-9略有改善至-7，但仍为负。所有州Q2办公情绪均下滑。</em></li>
-      </ul>
-    </li>
-    <li><strong>办公物业（Office）深度：</strong><br>
-      <em>办公物业（Office）深度：</em>
-      <ul style="list-style:none;padding-left:8px;">
-        <li><strong>空置率</strong>：全国办公空置率Q2 2026报告为10.9%（Q1 11.1%），略有收紧。预计12月内将至10.3%、2年内9.3% — 表明新供应减少+租户需求回暖的组合效应<br><em>空置率：全国办公空置率Q2报告10.9%（Q1 11.1%），略有收紧。预计12月内10.3%、2年内9.3%——显示新供应减少+租户需求回暖的组合效应。</em></li>
-        <li><strong>VIC办公危机持续：</strong>维州办公空置率14.3%，为全国最高（QLD仅8.3%）。但其它州的收紧抵消了VIC的恶化 — 总体国家级别略有好转<br><em>VIC办公危机持续：维州办公空置率14.3%，为全国最高（QLD仅8.3%）。但其它州的收紧抵消了VIC的恶化——总体国家级别略有好转。</em></li>
-        <li><strong>租金预期：</strong>办公租金预计12月内+0.9%（Q1时预期2.9%，大幅下调）、2年内+2.0%（较Q1的2.9%亦下调）。QLD未来12月办公租金预期领先（+2.2%），VIC在2年内领先（+3.9%）<br><em>租金预期：办公租金预计12月内+0.9%（Q1时预期2.9%，大幅下调）、2年内+2.0%（较Q1亦下调）。QLD12月办公租金预期领先（+2.2%），VIC2年内领先（+3.9%）。</em></li>
-        <li><strong>资本价值：</strong>调查参与者指出当前办公资本价值和空置率是关键弱点 — 资本价值可能仍在调整中<br><em>资本价值：调查参与者指出当前办公资本价值和空置率是关键弱点——资本价值可能仍在调整中。</em></li>
-        <li><strong>市场现货 / 实际交易动态（realestatesource.com.au Sep 2026）：</strong><br>
-          <em>市场现货/实际交易动态（realestatesource.com.au 2026年9月）：</em>
-          <ul style="list-style:none;padding-left:8px;">
-            <li><strong>University of Melbourne 持续买入：</strong>墨尔本大学利用商用物业低潮，从地主手中购买了另一座内城楼宇（8月19-22日报道）——顶级研究机构逆周期买入办公资产的案例<br><em>墨尔本大学持续买入：墨尔本大学利用商用物业低潮，从地主手中购买了另一座内城楼宇（8月19-22日报道）——顶级研究机构逆周期买入办公资产的案例。</em></li>
-            <li><strong>525 Flinders St (墨尔本) 命运反转：</strong>这座位于Flinders Street南侧的办公楼从长期空置到实现全面 occupancy（8月27-28日报道）——南侧办公楼逆转的少数案例<br><em>525 Flinders St（墨尔本）命运反转：这座位于Flinders Street南侧的办公楼从长期空置到实现全面 occupancy（8月27-28日报道）——南侧办公楼逆转的少数案例。</em></li>
-            <li><strong>Southern Cross Care (WA) 购买内城边缘办公楼：</strong>这家非营利机构支付1045万澳元购买了一座高知名度城缘办公楼（部分空置）（9月2-3日报道）——医疗/老年护理机构利用低价进入办公市场<br><em>Southern Cross Care (WA) 购买内城边缘办公楼：这家非营利机构支付1045万澳元购买了一座高知名度城缘办公楼（部分空置）（9月2-3日报道）——医疗/老年护理机构利用低价进入办公市场。</em></li>
-            <li><strong>Kinkora Investments 在 Cremorne 加倍下注：</strong>Kinkora购买了墨尔本时尚内东区Cremorne两座相邻办公楼（658 Church Street Buildings 1和2）（9月4日报道）——内城办公楼逆周期机会主义买入<br><em>Kinkora Investments 在 Cremorne 加倍下注：Kinkora购买了墨尔本时尚内东区Cremorne两座相邻办公楼（658 Church Street Buildings 1和2）（9月4日报道）——内城办公楼逆周期机会主义买入。</em></li>
-            <li><strong>Fairfield City Council 购买 ex-Aldi 地块：</strong> Fairfield 市议会购买了一块前Aldi店址，位于wiseTech Global创始人涉及的复杂物业链中心（9月2-3日报道）——地方政府进入商用地产<br><em>Fairfield市议会购买了一块前Aldi店址，位于WiseTech Global创始人涉及的复杂物业链中心（9月2-3日报道）——地方政府进入商用地产。</em></li>
-          </ul>
-        </li>
-      </ul>
-    </li>
-    <li><strong>零售物业（Retail）深度：</strong><br>
-      <em>零售物业（Retail）深度：</em>
-      <ul style="list-style:none;padding-left:8px;">
-        <li><strong>空置率略微放松：</strong>零售空置率报告6.4%（Q1 6.2%），略微上升但仍是三大商用板块中最低<br><em>空置率略微放松：零售空置率报告6.4%（Q1 6.2%），略有上升但仍是三大商用板块中最低。</em></li>
-        <li><strong>Cushman &amp; Wakefield 展望 2026：</strong>Neighborhood、Super和Major Regional Centres在捕捉零售周转增长方面位置最佳，部分资产预计适度的cap rate压缩。投资者需求继续偏爱防御型、便利导向的收入流<br><em>Cushman &amp; Wakefield 2026展望：邻里中心、超级中心和主要区域中心在捕捉零售周转增长方面位置最佳，部分资产预计适度cap rate压缩。投资者需求继续偏爱防御型、便利导向的收入流。</em></li>
-        <li><strong>Charter Hall 扫购两个购物中心 + 一个Bunnings：</strong> Charter Hall 69调查显示其扫购了两个购物中心和一个Bunnings地产（realestatesource.com.au，9月2-3日报道Mazen Tabet确认MA Financial购买了两座东海岸零售投资，卖家是Vicinity）<br><em>Charter Hall 扫购两个购物中心 + 一个Bunnings地产：Charter Hall 69调查显示其扫购了两个购物中心和一个Bunnings地产（realestatesource.com.au，9月2-3日报道，Mazen Tabet确认MA Financial购买了两座东海岸零售投资，卖家为Vicinity）。</em></li>
-        <li><strong>Ex-Aldi 位置吸引地方政府：</strong> Fairfield市议会购买前Aldi作为中心——显示即使是政府机构也在寻找零售/社区级地产机会<br><em>Ex-Aldi位置吸引地方政府：Fairfield市议会购买前Aldi作为中心——显示即使是政府机构也在寻找零售/社区级地产机会。</em></li>
-      </ul>
-    </li>
-    <li><strong>工业物业（Industrial）深度：</strong><br>
-      <em>工业物业（Industrial）深度：</em>
-      <ul style="list-style:none;padding-left:8px;">
-        <li><strong>连续两季度排名第一：</strong>工业当前情绪+34，虽较Q1 +46放缓，但仍是三大板块中显著最高。工业租金预期12月+2.2%、2年内+2.7%，均为所有板块最高<br><em>连续两季度排名第一：工业当前情绪+34，虽较Q1 +46放缓，但仍是三大板块中显著最高。工业租金预期12月+2.2%、2年内+2.7%，均为所有板块最高。</em></li>
-        <li><strong>Cushman &amp; Wakefield：</strong>受限的开发管道和租户向优质设施 consolidation 正在巩固工业租金增长。资本池在加深，但部署决策越来越通过资产质量、位置和契约实力筛选<br><em>Cushman &amp; Wakefield：受限的开发管道和租户向优质设施 consolidation 正在巩固工业租金增长。资本池在加深，但部署决策越来越通过资产质量、位置和契约实力筛选。</em></li>
-        <li><strong>Eureka Group Holdings (ASX: Eureka) 连买两个WA旅游公园：</strong>ASX上市租赁住房运营商Eureka在一个月内第二次购买WA旅游公园（8月20-21日报道）——"工业/物业"板块中的机会主义买入，不过更接近居住类<br><em>Eureka Group Holdings (ASX: Eureka) 连买两个WA旅游公园：ASX上市租赁住房运营商Eureka在一个月内第二次购买WA旅游公园（8月20-21日报道）——"工业/物业"板块中的机会主义买入，不过更接近居住类。</em></li>
-        <li><strong>Asset managers trade Darwin logistics：</strong>大型资产经理之间发生了Darwin物流投资的重大交易（8月20-21日报道）——地方工业物业流动性存在，虽较小<br><em>资产经理间发生Darwin物流投资重大交易（8月20-21日报道）——地方工业物业流动性存在，虽市场较小。</em></li>
-      </ul>
-    </li>
-    <li><strong>Cushman &amp; Wakefield Australia Outlook 2026 核心结论：</strong><br>
-      <em>Cushman &amp; Wakefield Australia Outlook 2026 核心结论：</em>
-      <ul style="list-style:none;padding-left:8px;">
-        <li>澳大利亚商用物业在2026年初步入"更清晰、更纪律资本、结构性需求支撑"的新阶段<br><em>澳大利亚商用物业在2026年初步入"更清晰、更纪律资本、结构性需求支撑"的新阶段。</em></li>
-        <li>经济增长预计维持在接近2%但受限——通胀压力、生产力挑战、谨慎货币政策塑造复苏节奏<br><em>经济增长预计维持在接近2%但受限——通胀压力、生产力挑战、谨慎货币政策塑造复苏节奏。</em></li>
-        <li>资本市场将保持选择性，纪律融资定义部署决策<br><em>资本市场将保持选择性，纪律融资定义部署决策。</em></li>
-        <li>办公：新供应 sharp 下降 + 租户需求回升 → 空置率下降 + 有效租金增长更强（2026-2028）；定价清晰度提升 → 投资活动预期增强<br><em>办公：新供应 sharp 下降 + 租户需求回升 → 空置率下降 + 有效租金增长更强（2026-2028）；定价清晰度提升 → 投资活动预期增强。</em></li>
-        <li>物流/工业：受限开发管道 + 租户向优质设施集中 → 巩固租金增长；资本池加深，筛选更严<br><em>物流/工业：受限开发管道 + 租户向优质设施集中 → 巩固租金增长；资本池加深，筛选更严。</em></li>
-        <li>零售：Nei、Super、Major Regional Centres位置最佳，部分资产适度cap rate压缩；投资者偏爱防御型收入流<br><em>零售：Neighborhood、Super、Major Regional Centres位置最佳，部分资产适度cap rate压缩；投资者偏爱防御型收入流。</em></li>
-        <li>Living：住房短缺 + 移民驱动人口增长 → 持续租金增长 + 机构资本部署增加；收入持续性是核心吸引力<br><em>Living：住房短缺 + 移民驱动人口增长 → 持续租金增长 + 机构资本部署增加；收入持续性是核心吸引力。</em></li>
-      </ul>
-    </li>
-  </ul>
-
-  <div class="subhead-trans">商用物业总体看法</div>
-  <p>商用物业整体情绪从2026年Q1高位（+30）在Q2理性回落至+16，但仍高于长期平均。<strong>工业物业是当前最强板块</strong>（连续第二季度排名第一，+34），租金预期12月+2.2%、2年内+2.7%领跑所有板块。<strong>办公物业是最弱板块</strong>（+9，sharp from +31），VIC办公空置率14.3%危机仍在，但全国层面略有好转（总体10.9% vs 11.1%）。<strong>零售物业居中</strong>（+20，略有改善），但租金前景较弱（12月仅+0.7%），除非WA等特定市场。Cushman &amp; Wakefield预计办公版块将在新供应减少+需求回暖驱动下迎来2026-2028空置率下降+租金增长，再加定价清晰度提升将带动投资复苏。实际交易动态显示University of Melbourne继续内城办公楼逆周期买入、525 Flinders St实现去空转全占、医疗机构（Southern Cross Care）购买城缘办公楼、Kinkora在Cremorne内城办公楼加倍下注 — 显示顶级机构和非营利组织正在利用商用低潮进行机会主义买入。</p>
-  <p><em>Commercial property overall: Sentiment eased rationally from elevated Q1 (+30) to +16 in Q2 but remains above long-run average. Industrial is the strongest current sector (second consecutive quarter #1, +34), rent outlook +2.2% 12-month / +2.7% 2-year leads all sectors. Office is weakest (+9, sharp from +31), VIC office vacancy 14.3% crisis persists, but national level slightly improving (overall 10.9% vs 11.1%). Retail middle (+20, slight improvement) but rent outlook weakest (12-month only +0.7%) except specific markets like WA. Cushman &amp; Wakefield expects office to see 2026-2028 vacancy decline + rent growth driven by new supply slowdown + tenant demand recovery, plus pricing clarity improving will drive investment recovery. Actual deal flow shows University of Melbourne continuing cyclical inner-city office buying, 525 Flinders St achieving vacancy-to-full-occupancy turnaround, healthcare provider Southern Cross Care buying city-fringe office, Kinkora doubling down in Cremorne inner-city office — indicating top-tier institutions and not-for-profits opportunistically buying into the commercial downturn.</em></p>
-</div>
+<div class="subhead">📰 *新闻主题（AFR，免费）*</div>
+<li>*银行 / 金融* (14)</li>
+</ul>
+<li>ASX kingmakers talk big super, crazy sell-offs and IPOs</li>
+</ul>
+<li>要点：澳交所、养老金。</li>
+</ul>
+<li>Super mega-funds tell rock-star stock pickers to lift their game</li>
+</ul>
+<li>要点：股票、养老金。</li>
+</ul>
+<li>ASX to rise ahead of pivotal week of central bank meetings</li>
+</ul>
+<li>银行板块反弹。</li>
+</ul>
+<li>Industrial and Commercial Bank of China Limited</li>
+</ul>
+<li>要点：银行。</li>
+</ul>
+<li>*房产 / 地产* (13)</li>
+</ul>
+<li>Canada’s Element cuts a U-turn at $860m auction for FleetPartners</li>
+</ul>
+<li>拍卖市场动态。</li>
+</ul>
+<li>Residential property</li>
+</ul>
+<li>要点：房产。</li>
+</ul>
+<li>Property reporter</li>
+</ul>
+<li>要点：房产。</li>
+</ul>
+<li>Property development</li>
+</ul>
+<li>要点：房产。</li>
+</ul>
+<li>*AI / 科技* (11)</li>
+</ul>
+<li>‘It’s alarming’: governments urged to step up oversight of AI safety</li>
+</ul>
+<li>（暂无本地中文释义）</li>
+</ul>
+<li>Artificial intelligence</li>
+</ul>
+<li>（暂无本地中文释义）</li>
+</ul>
+<li>Lisa Henson on why her dad’s puppets are AI-proof</li>
+</ul>
+<li>（暂无本地中文释义）</li>
+</ul>
+<li>Macquarie’s Future Secure AI nears pre-IPO raise at $1.8b valuation</li>
+</ul>
+<li>（暂无本地中文释义）</li>
+</ul>
+<li>*市场 / ASX* (9)</li>
+</ul>
+<li>ASX kingmakers talk big super, crazy sell-offs and IPOs</li>
+</ul>
+<li>要点：澳交所、养老金。</li>
+</ul>
+<li>Australian shares</li>
+</ul>
+<li>要点：股票。</li>
+</ul>
+<li>Super mega-funds tell rock-star stock pickers to lift their game</li>
+</ul>
+<li>要点：股票、养老金。</li>
+</ul>
+<li>ASX to rise ahead of pivotal week of central bank meetings</li>
+</ul>
+<li>银行板块反弹。</li>
+</ul>
 
 <div class="footer">
-  *Sources: AFR (afr.com, afr.com/property), RBA (rba.gov.au), Stanford AI Index 2026, company ASX disclosures, CSIMarket, Investing.com, Reuters, Yahoo Finance, marketindex.com.au, Bloomberg, BBA, BBN Times, 10X Wealth Report, Community America, NAB Commercial Property Survey Q2 2026, Cushman &amp; Wakefield Australia Outlook 2026, realestatesource.com.au, TechTimes, India Today. Free sources only; not financial advice.
-  <br>
-  *来源：AFR（afr.com、afr.com/property）、RBA（rba.gov.au）、Stanford AI Index 2026、公司ASX披露、CSIMarket、Investing.com、路透社、雅虎财经、marketindex.com.au、Bloomberg、BBA、BBN Times、10X Wealth Report、Community America、NAB商用物业调查Q2 2026、Cushman &amp; Wakefield澳大利亚2026展望、realestatesource.com.au、TechTimes、India Today。仅免费来源；非投资建议。
+  Sources: AFR (afr.com), RBA (rba.gov.au), arXiv, CSIMarket, Investing.com, Reuters, Yahoo Finance, marketindex.com.au. Free sources only; not financial advice.<br>
+  来源：AFR、RBA、arXiv、CSIMarket、Investing.com、Reuters、Yahoo Finance、marketindex.com.au。仅免费来源；非投资建议。
 </div>
 
 </div>
